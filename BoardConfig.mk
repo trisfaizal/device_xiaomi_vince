@@ -26,6 +26,11 @@ TARGET_COPY_OUT_VENDOR := vendor
 # Kernel
 TARGET_KERNEL_CONFIG := vince_defconfig
 
+# bootanimation size
+TARGET_BOOT_ANIMATION_RES := 2160
+TARGET_SCREEN_HEIGHT := 2160
+TARGET_SCREEN_WIDTH := 1080
+
 # Lineage Hardware
 BOARD_HARDWARE_CLASS += \
     $(DEVICE_PATH)/lineagehw
